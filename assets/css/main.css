@@ -1,0 +1,64 @@
+.glifi {
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 40px;
+  background-color: #ff9900;
+  color: white; }
+
+.t {
+  color: #959595; }
+
+.menu {
+  background-color: black;
+  whith: 100%;
+  color: white;
+  padding: 10px; }
+
+.intro {
+  background-image: url("../img/home1.jpeg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+
+body {
+  font-size: 16px; }
+
+.text-home1 {
+  font-size: 1em; }
+
+@media (max-width: 320px) {
+  .text-home2 {
+    font-size: 2em; } }
+.text-home1 {
+  margin-top: 200px;
+  font-size: 80px;
+  font-family: 'Passion One', cursive;
+  color: #082F8A; }
+
+.text-home2 {
+  color: #4372FF;
+  font-family: 'Passion One', cursive;
+  font-size: 30px; }
+
+img {
+  margin-top: 30px;
+  border-radius: 20%;
+  border: solid 1px skyblue;
+  width: 50%; }
+
+.s-1 {
+  background-color: white;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+
+.s-2 {
+  background-color: #1A4686;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+
+/*# sourceMappingURL=main.css.map */
