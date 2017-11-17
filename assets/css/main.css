@@ -8,18 +8,31 @@
 .t {
   color: #959595; }
 
+.progress {
+  border: 0;
+  height: 10px;
+  border-radius: 9px;
+  width: 100%; }
+
+.television {
+  width: 50%; }
+
+.boton {
+  color: white;
+  background-color: orange;
+  text-decoration: none;
+  padding: 10px;
+  border: 1px orange; }
+
+a:hover {
+  background-color: transparent;
+  text-decoration: none; }
+
 .menu {
   background-color: black;
   whith: 100%;
   color: white;
   padding: 10px; }
-
-.intro {
-  background-image: url("../img/home1.jpeg");
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  background-position: center; }
 
 body {
   font-size: 16px; }
@@ -40,12 +53,6 @@ body {
   color: #4372FF;
   font-family: 'Passion One', cursive;
   font-size: 30px; }
-
-img {
-  margin-top: 30px;
-  border-radius: 20%;
-  border: solid 1px skyblue;
-  width: 50%; }
 
 .s-1 {
   background-color: white;

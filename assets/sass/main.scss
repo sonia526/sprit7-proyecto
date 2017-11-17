@@ -1,6 +1,7 @@
 @import 'parciales/glificon.scss';
 @import 'parciales/variables.scss';
 @import 'parciales/televisor';
+@import 'parciales/base';
 .menu{
     background-color:black;
     whith:100%;
@@ -8,16 +9,16 @@
   padding:10px;
 
 }
-.intro{
+// .intro{
 	
-    background-image: url("../img/home1.jpeg");
-    width:100%;
-    height:100vh;
-    // padding: 120px 20px 370px 330px;
-    background-size: cover;
-    background-position: center;
+//     background-image: url("../img/home1.jpeg");
+//     width:100%;
+//     height:100vh;
+//     // padding: 120px 20px 370px 330px;
+//     background-size: cover;
+//     background-position: center;
 
-}
+// }
 body { font-size: 16px; }
 .text-home1 { font-size: 1em; }
  
@@ -45,14 +46,14 @@ body { font-size: 16px; }
 	// font-size: 3vw;
     // este color es mas claro
 }
-img{
-	// margin-left:100px;
- margin-top:30px;
- border-radius:20%;
- border:solid 1px skyblue;
- // height:100px;
- width:50%;
-}
+// img{
+// 	// margin-left:100px;
+//  margin-top:30px;
+//  border-radius:20%;
+//  border:solid 1px skyblue;
+//  // height:100px;
+//  width:50%;
+// }
 .s-1{
 	background-color:white;
 	width:100%;
