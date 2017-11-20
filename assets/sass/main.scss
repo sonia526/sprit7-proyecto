@@ -4,6 +4,7 @@
 @import 'parciales/base.scss';
 @import 'parciales/team.scss';
 @import 'parciales/carruceldos.scss';
+@import 'parciales/carruceltres.scss';
 .menu{
     background-color:black;
     whith:100%;
@@ -11,16 +12,15 @@
   padding:10px;
 
 }
-// .intro{
-	
-//     background-image: url("../img/home1.jpeg");
-//     width:100%;
-//     height:100vh;
-//     // padding: 120px 20px 370px 330px;
-//     background-size: cover;
-//     background-position: center;
-
-// }
+// carrucel uno**************
+.carousel .item {
+    width: 100%; 
+    max-height: 600px; 
+}
+.carousel .item img {
+    width: 100%; 
+}
+//fin de carrucel uno********
 body { font-size: 16px; }
 .text-home1 { font-size: 1em; }
  
@@ -38,24 +38,7 @@ body { font-size: 16px; }
 	//font-size: 3vh; /*30% la altura del dispositivo*/
 	//font-size: 3vw; /*30% el ancho del dispositivo*/
 }
-.text-home2{
-    // color:#1A4686;
-    color:#4372FF;
-    font-family: 'Passion One', cursive;
-    font-size:30px;
 
- //    font-size: 3vh;
-	// font-size: 3vw;
-    // este color es mas claro
-}
-// img{
-// 	// margin-left:100px;
-//  margin-top:30px;
-//  border-radius:20%;
-//  border:solid 1px skyblue;
-//  // height:100px;
-//  width:50%;
-// }
 .s-1{
 	background-color:white;
 	width:100%;
@@ -72,7 +55,7 @@ body { font-size: 16px; }
     background-size: cover;
     background-position: center;
 }
-//seccion naranja***************
+//seccion naranja tv********************
 .seccion-naranja{
     background-color:#ff9900;
     width:100%;
@@ -81,13 +64,28 @@ body { font-size: 16px; }
     background-size: cover;
     background-position: center;
 }
+
+// secciondel carrusecel dos***********
+.seccion-carrusel2{
+    background-color:yellow;
+     // width:100%;
+     height:500px;
+     
+    
+    background-size: cover;
+    background-position: center;
+
+}
+//fin carrucel*********************
+
 footer{
     background-color:black;
-    padding:25px;}
+    padding:25px;
 
 .text-uno{
     color:white;
 
+  }
 }
 
 

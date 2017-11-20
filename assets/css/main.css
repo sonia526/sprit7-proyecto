@@ -1,3 +1,6 @@
+.seccion-dos-parallax {
+  background-color: rgba(0, 0, 0, 0.5); }
+
 .glifi {
   padding: 10px;
   font-size: 25px;
@@ -53,6 +56,9 @@ a:hover {
   text-decoration: none;
   padding: 10px;
   border: 1px orange; }
+
+.section-1 {
+  background-color: rgba(0, 0, 0, 0.5); }
 
 a:hover {
   background-color: transparent;
@@ -135,17 +141,90 @@ h1 {
   text-decoration: underline; }
 
 .seccion-carrusel2 {
-  background-color: #ff9900;
-  width: 100%;
-  height: 100vh;
+  background-color: yellow;
+  height: 500px;
   background-size: cover;
   background-position: center; }
+
+.main-container {
+  padding: 10px 15px; }
+
+.skyblue {
+  background-color: #ff9900; }
+
+.deepskyblue {
+  background-color: #ff9900; }
+
+.darkerskyblue {
+  background-color: #ff9900; }
+
+.carousel-indicators {
+  bottom: 0; }
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none; }
+
+.carousel .item {
+  min-height: 350px;
+  height: 100%;
+  width: 100%; }
+
+.carousel-caption h3,
+.carousel .icon-container,
+.carousel-caption button {
+  background-color: #09c; }
+
+.carousel-caption h3 {
+  padding: .5em; }
+
+.carousel .icon-container {
+  display: inline-block;
+  font-size: 25px;
+  line-height: 25px;
+  padding: 1em;
+  text-align: center;
+  border-radius: 50%; }
+
+.carousel-caption button {
+  border-color: #00bfff;
+  margin-top: 1em; }
+
+/* Animation delays */
+.carousel-caption h3:first-child {
+  animation-delay: 1s; }
+
+.carousel-caption h3:nth-child(2) {
+  animation-delay: 2s; }
+
+.carousel-caption button {
+  animation-delay: 3s; }
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold; }
+
+.p {
+  padding-top: 125px;
+  text-align: center; }
+
+.p a {
+  text-decoration: underline; }
 
 .menu {
   background-color: black;
   whith: 100%;
   color: white;
   padding: 10px; }
+
+.carousel .item {
+  width: 100%;
+  max-height: 600px; }
+
+.carousel .item img {
+  width: 100%; }
 
 body {
   font-size: 16px; }
@@ -161,11 +240,6 @@ body {
   font-size: 80px;
   font-family: 'Passion One', cursive;
   color: #082F8A; }
-
-.text-home2 {
-  color: #4372FF;
-  font-family: 'Passion One', cursive;
-  font-size: 30px; }
 
 .s-1 {
   background-color: white;
@@ -188,11 +262,16 @@ body {
   background-size: cover;
   background-position: center; }
 
+.seccion-carrusel2 {
+  background-color: yellow;
+  height: 500px;
+  background-size: cover;
+  background-position: center; }
+
 footer {
   background-color: black;
   padding: 25px; }
-
-.text-uno {
-  color: white; }
+  footer .text-uno {
+    color: white; }
 
 /*# sourceMappingURL=main.css.map */
