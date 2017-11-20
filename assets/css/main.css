@@ -12,10 +12,14 @@
   color: #959595; }
 
 .progress {
+  color: orange;
   border: 0;
   height: 10px;
   border-radius: 9px;
   width: 100%; }
+
+.barra {
+  background-color: orange; }
 
 .television {
   width: 50%; }
@@ -77,6 +81,24 @@ a:hover {
 
 .text2 {
   font-size: 20px; }
+
+.icono-team {
+  font-size: 20px;
+  padding: 5px;
+  white-space: 5px;
+  background-color: #787878;
+  color: white; }
+
+.icono-face {
+  font-size: 20px;
+  padding: 5px 8px 5px 8px;
+  white-space: 5px;
+  background-color: #787878;
+  color: white; }
+
+.correo {
+  text-decoration: none;
+  color: orange; }
 
 .main-container {
   padding: 10px 15px; }
@@ -145,6 +167,9 @@ h1 {
   height: 500px;
   background-size: cover;
   background-position: center; }
+
+.tercer-carrusel {
+  background-color: orange; }
 
 .main-container {
   padding: 10px 15px; }
